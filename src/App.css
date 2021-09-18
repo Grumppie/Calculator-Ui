@@ -14,10 +14,11 @@ body{
     border: 5px solid rgb(0, 0, 0);
     width: 400px;
     height: 55vh;
-    background-color: black;
+    background-color: rgb(36, 42, 54);
     border-radius: 20px;
     text-align: center;
     font-size: 20px;
+    box-shadow:  0px 0px 20px 20px rgba(36, 42, 54,0.16);
 }
 
 input{
@@ -51,8 +52,13 @@ button{
     border: none;
     cursor: pointer;
     font-size: 30px;
-    background-color: rgb(37, 37, 37);
+    background-color: rgb(0, 0, 0);
     color: aliceblue;
+    box-shadow:  0px 0px 20px 20px rgba(104, 104, 104, 0.1);
+    transition: all 0.2s ease;
+}
+button:hover{
+    transform: scale(1.1);
 }
 
 .clear{
